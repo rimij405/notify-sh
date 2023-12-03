@@ -1,0 +1,35 @@
+# ============================================================================ #
+# .gitignore
+# ============================================================================ #
+
+# ===== DIRECTORIES
+
+# IDE Specific
+.vscode/
+.idea/
+
+# Dependencies
+bpm-modules/
+node_modules/
+vendor/
+
+# Build Artifacts
+build/
+dist/
+
+# Misc.
+var/
+.tmp/
+
+# ===== FILES
+
+# IDE Configuration
+.markdownlint.*
+
+# Environment Variables
+.env
+.env.test
+!.env.example
+
+# Secrets
+*.pem
